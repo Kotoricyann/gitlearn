@@ -1,0 +1,40 @@
+﻿更改用户名/email
+git config --global user.name "FR Lv"
+
+将当前目录变成仓库
+git init
+
+添加文件
+git add git.txt
+
+提交，并添加描述abc
+git commit -m "abc"
+
+仓库状态
+git status
+
+查看区别
+git diff example.txt
+
+查看日志
+git log
+
+回滚操作(^ once; ~n nth; 版本号 该版本)
+git reset --hard HEAD^
+
+查看版本修改日志
+git reflog
+
+撤销修改//用版本库退回工作区
+git checkout -- example.txt
+
+回退暂存区到工作区
+git reset HEAD example.txt
+
+删除文件
+git rm example.txt
+
+
+
+
+
