@@ -43,6 +43,17 @@ git remote add origin git@github.com:michaelliao/learngit.git
 推送到远程库
 git push (-u origin) master
 
+从远程库克隆
+git clone
+
+创建并切换分支（-b）
+git checkout -b dev
+= git branch dev
+  git checkout dev
+  
+  new dev
+
+
 
 
 
