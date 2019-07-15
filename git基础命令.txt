@@ -41,7 +41,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 git remote add origin git@github.com:michaelliao/learngit.git
 
 推送到远程库
-git push (-u origin) master
+git push (-u) origin master
 
 从远程库克隆
 git clone
@@ -57,8 +57,21 @@ git merge dev
 删除分支dev
 git branch -d dev
 
+保存现场（工作区）
+git stash
 
+查看现场
+git stash list
 
+恢复现场
+git stash pop
+git stash apply 
+
+删除现场
+git stash drop
+
+添加标签 
+git tag <tagname>
 
 
 
